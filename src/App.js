@@ -1,18 +1,18 @@
-import React from 'react';
-import store from './app/store';
-import {Provider} from 'react-redux';
+import React, { Component } from "react";
 
 import './App.css';
+import Header from "./components/Header";
 
-function App() {
-  return (
-      <Provider store={store}>
-    <div className="App">
-     <Header
 
-    </div>
-      </Provider>
-  );
+// This needs to be a class component because it will have it's own state
+
+class App extends Component {
+    render() {
+        return(
+            <></>
+        )
+    }
 }
+
 
 export default App;
